@@ -1,0 +1,5 @@
+/* Tip calculator */
+
+design the UI.
+get the data from the input fields.
+Add logic to calculate the Tip

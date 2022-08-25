@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+    <link rel="shortcut icon" href= "/images/icons8-calculator-96.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Tip calculator</h1>
+    <div class="container">
+        <div class="form-container">
+            <input type="text" name="bill-amount" id="amount-field" placeholder="Bill Amount">
+            <input type="text" name="percent" id="percent-field" placeholder="percent %: ">
+            <input type="text" name="split" id="split-field" placeholder="split bill %: ">
+            <button id = "btn">calculate</button>
+        </div>
+        <div class="display-container">
+            <h2 id = "tip-amount">Tip Amount: 0.00</h2>
+            <h2 id = "split-bill">Tip per person: 0.00</h2>
+            <h2 id = "total-amount">Total[tip + bill]: 00.00</h2>
+            <div>
+                <button id = 'reset-btn'>Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src = "js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Space Grotesk', sans-serif;
+    background: #140D53;
+    color: #E95263;
+}
+body h1{
+    text-align:center;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #E95263;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 5px;
+    background:#140D53;
+}
+input{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    background: none;
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    text-align: right;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    text-align: start;
+}
+#btn, #reset-btn{
+    background: white;
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+/* display-container */
+.display-container{
+    background: #140D53;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(207, 206, 206);
+    border-radius: 10px;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+/* media query */
+@media screen and (max-width: 578px) {
+    body{
+        font-size: 1rem;
+    }
+    body h1{
+        font-size: 2.3rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        gap: 40px;
+        padding: 50px; 
+        margin-top: 50px;
+    }
+    .display-container{
+        font-size: .7rem;
+        text-align: center;
+    }
+}
